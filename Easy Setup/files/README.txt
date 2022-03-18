@@ -1,0 +1,1 @@
+Drop here your msi setup file (rename it to setup.msi)
