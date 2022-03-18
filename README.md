@@ -1,5 +1,7 @@
 # Easy Setup
 Free and open source one-click installer
+![image](https://user-images.githubusercontent.com/59311016/159022090-f8a15128-0d51-4b3d-87fb-882f35787b52.png)
+
 ## Make Easy Setup for your program
 1. [Download](https://github.com/Vichingo455/Easy-Setup/archive/refs/heads/master.zip) the source code
 2. Open the solution called Easy Setup.sln in Visual Studio
