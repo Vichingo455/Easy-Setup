@@ -23,7 +23,7 @@ namespace Easy_Setup
         string author = "WinZip"; //here put the author name of the software
         string version = "v4.0"; //here put the version of the software
         string software_website = "https://winzip.com"; //here put the website of the software (if one)
-        bool require_admin = false; //set true if the installation requires admin permissions or false if not
+        bool require_admin = true; //set true if the installation requires admin permissions or false if not
 
         public Form1() //IMPORTANT, DON'T CHANGE!!!!
         {
