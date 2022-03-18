@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Easy Install</title>
+</head>
+<body>
+	<h1>Easy Setup</h1>
+<p>Installer to install anything in one click</p>
+<h2>Install instructions</h2>
+<ol>
+<li>Run the file called <em>Easy Setup.exe</em></li>
+<li>Click <em>Install</em></li>
+<li>Wait until it installs the software</li>
+</ol>
+<h2>Making Easy Setup for a program</h2>
+<p>Distributing Easy Install for your program is not difficult, you need only to edit some files and strings in the code, and compile the installer.</p>
+<p>Requirements:</p>
+<ul>
+<li>Visual Studio 2019 or Visual Studio 2022</li>
+<li>.NET Framework component</li>
+<li>Installer built in MSI package (to build a msi installer we reccommend <a title="InstallShield Free Trial" href="https://info.revenera.com/IS-EVAL-InstallShield-Professional" target="_blank">InstallShield</a>)</li>
+</ul>
+<p>Instructions:</p>
+<ol>
+<li><a title="Download Easy Setup source code" href="https://github.com/Vichingo455/Easy-Setup/archive/refs/heads/master.zip">Download</a> the source code from <a title="Easy Setup source code" href="https://github.com/Vichingo455/Easy-Setup" target="_blank">GitHub</a></li>
+<li>Open the solution called&nbsp;<em>Easy Setup.sln</em> in Visual Studio</li>
+<li>Edit the following strings:</li>
+</ol>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; soft_name = ""; - Put here the software name</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; author&nbsp; = ""; - Put here the author name</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; version = ""; - Put here the program version</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; require_admin = true; - Set the value to true if the installer requires admin privileges (default) or to false if not</p>
+<p>&nbsp; &nbsp; &nbsp;4. Paste your msi setup package in the "files" directory. Delete the setup.msi provided by default and rename the new msi package to "setup.msi"</p>
+<p>&nbsp; &nbsp; &nbsp;5. Compile the setup and enjoy</p>
+<p>&nbsp;</p>
+<p><strong>Easy Setup, Copyright (C) 2022 Vichingo455. All rights reserved</strong></p>
+</body>
+</html>
